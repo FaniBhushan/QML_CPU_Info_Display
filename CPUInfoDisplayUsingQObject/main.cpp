@@ -29,9 +29,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        QDebug()<<"cpuinfo file could ni be read sucessfully";
+        QDebug()<<"cpuinfo file could not be read sucessfully";
         return -1;
     }
-
-
 }
